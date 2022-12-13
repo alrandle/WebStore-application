@@ -4,7 +4,7 @@
 .store-box { /* might have to change display to grid?*/
     border: 2px solid green;
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
     margin-top: 10px;
 }
 .store{
@@ -20,4 +20,8 @@
 .store-image {
     display: flex;
     height: 175px;
+}
+.image-box {
+    display: flex;
+    justify-content: center;
 }
