@@ -20,6 +20,5 @@
 }
 .store-image {
     display: flex;
-    height: 150px;
-    justify-self: center;
+    height: 175px;
 }
