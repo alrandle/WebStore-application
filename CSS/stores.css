@@ -9,6 +9,7 @@
 }
 .store{
     border: 2px solid pink;
+    width: 400px;
 }
 .store-title {
     font-weight: 600;
