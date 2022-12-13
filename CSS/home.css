@@ -1,0 +1,120 @@
+.banner {
+    display: flex;
+    background-color: #475063;
+    /*border: 2px solid blue;*/
+}
+.image-banner {
+    background-color: #475063;
+    height: 125px;
+}
+body {
+    margin: 0;
+}
+.nav-buttons {
+    margin: auto;
+}
+.buttons-nav {
+    background-color: #475063;
+    color: gold;
+    border-color: transparent;
+    font-family:cursive;
+    font-weight: 500;
+    font-size: large;
+}
+.page-contents {
+    border: 2px solid red;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.closing {
+    display: flex;
+    justify-content: space-between;
+    background-color: #475063;
+    font-family: cursive;
+    font-size: 10px;
+    /*border: 2px solid red;*/
+}
+.contact {
+    align-self: flex-end;
+    align-content: center;
+    color: gold;
+    /*border:2px solid yellow;*/
+    text-align: left;
+    margin-right: 10px;
+    height: 260px;
+}
+.boxing {
+    display: flex;
+    text-align: left;
+}
+.boxing i {
+    align-items: center;
+    font-size: 30px;
+}
+.boxing p{
+    margin-left: 10px;
+    font-size: 16px;
+}
+.contact p {
+    color: lightgray;
+}
+
+.statement {
+    color: gold;
+    width: 500px;
+    /*border: 2px solid yellow;*/
+    text-align: center;
+}
+.statement p {
+    color: lightgray;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+.selling-box {
+    border: 2px solid green;
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+    overflow-wrap: normal;
+    
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid orange;
+    background-color: darkgray;
+    margin-left: auto;
+}
+.item-title {
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+    color: gold;
+    font-size: 36px;
+    font-weight: 600;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.item-description {
+    font-family: cursive;
+    font-weight: 500;
+    font-size: 20px;
+    color: gold;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+}
+.item-picture {
+    border: 2px solid red;
+    background-color: darkgray;
+    height: 250px;
+}
+.purchase-information {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
